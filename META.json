@@ -36,7 +36,8 @@
             "Plack::Util::Accessor" : 0,
             "String::Random" : 0,
             "URL::Encode" : 0,
-            "parent" : 0
+            "parent" : 0,
+            "perl" : "5.0100"
          }
       },
       "test" : {
@@ -49,6 +50,6 @@
    },
    "release_status" : "stable",
    "resources" : {},
-   "version" : "0.001"
+   "version" : "0.002"
 }
 

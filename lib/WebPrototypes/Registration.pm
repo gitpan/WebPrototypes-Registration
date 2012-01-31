@@ -1,9 +1,11 @@
 use strict;
 use warnings;
 
+use 5.0100;
+
 package WebPrototypes::Registration;
 BEGIN {
-  $WebPrototypes::Registration::VERSION = '0.001';
+  $WebPrototypes::Registration::VERSION = '0.002';
 }
 use parent qw(Plack::Component);
 use Plack::Request;
@@ -113,7 +115,7 @@ WebPrototypes::Registration - (Experimental) Plack application for registering a
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 SYNOPSIS
 
